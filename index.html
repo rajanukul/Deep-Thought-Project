@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script type="text/javascript">
+        function togglemenu(){
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+    </script>
+    <title>Home</title>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html" class="logo"><img src="https://deepthought.education/assets/images/logo/logo.svg" alt="logo"></a>
+        <div class="avatar">
+            <a href="#"><i class="fa-solid fa-house"></i></a>
+            <a href="#"><i class="fa-solid fa-binoculars"></i></a>
+           <a href=""><i class="fa-solid fa-screwdriver-wrench"></i></a>
+           <a href=""><i class="fa-solid fa-bell"></i></a>
+           
+        </div>
+        <div class="pic">
+            <a href=""><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80" alt=""></a>
+            <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+    </header>
+    
+    <div id="sidebar" onclick="togglemenu()">
+        <h3>Journey Board</h3>
+        <div class="toggle-btn">
+            <a><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <ul>
+            <h4>1. Demo task</h4>
+            <p>&#8226;&nbsp;&nbsp;task heading 1</p>
+            <p>&#8226;&nbsp;&nbsp;task heading 2</p>
+            <p>&#8226;&nbsp;&nbsp;task heading 3</p>
+            <p>&#8226;&nbsp;&nbsp;task heading 4</p>
+            <p>&#8226;&nbsp;&nbsp;task heading 5</p>
+            <p>&#8226;&nbsp;&nbsp;task heading 6</p>
+            <p>&#8226;&nbsp;&nbsp;task heading 7</p>
+            <p>&#8226;&nbsp;&nbsp;task heading 8</p>
+            <p>&#8226;&nbsp;&nbsp;task heading 9</p>
+        </ul>
+    </div>
+    <div class="title">
+        <h3>You Are Taking Challenges of New Project</h3>
+    </div>
+    <div class="tasks">
+        <div class="task_head">
+            <h2>demo task</h2>
+        </div>
+        <div class="task1">
+            <h3>task heading 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ab vel incidunt laborum repellendus quaerat saepe iusto ex eveniet obcaecati. Labore nihil excepturi, cupiditate ut mollitia nulla autem atque placeat?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptas blanditiis harum nisi animi, id maiores veniam, molestiae at rem illo illum! Laudantium itaque quidem molestias ad eaque hic ullam!
+            </p>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="task2">
+            <h3 class="h3">Task Heading 2</h3>
+            <h3><i class="fa-solid fa-angle-up"></i>&nbsp;&nbsp;&nbsp; Thread A</h3>
+            <form class="sub1">
+                <p>Sub Thread 1</p>
+                <textarea rows="5" cols="20" placeholder="&nbsp;&nbsp;Enter Text Here"></textarea>
+                <br>
+                
+            </form>
+            <form class="sub2">
+                <p>Sub Interpretation 1</p>
+                <textarea rows="5" cols="20" placeholder="&nbsp;&nbsp;Enter Text Here"></textarea>
+            </form>
+            <form class="drop1">
+                <select>
+                  <option value="volvo">Select Category</option>
+                  <option value="saab">Category 1</option>
+                  <option value="opel">Category 2</option>
+                  <option value="audi">Category 3</option>
+                </select>
+            </form>
+            <form class="drop2">
+                <select>
+                  <option value="volvo">Select Process</option>
+                  <option value="saab">Process 1</option>
+                  <option value="opel">Process 2</option>
+                  <option value="audi">Process 3</option>
+                </select>
+            </form>
+            <div class="thread">
+                <form class="sub3">
+                    <input type="submit" value="+ Sub thread">
+                    <p>Summary for Thread A</p>
+                    <textarea rows="5" cols="20" placeholder="&nbsp;&nbsp;Enter Text Here"></textarea>
+                </form>
+                <i class="fa-solid fa-link"></i>
+                <h4>Thread Credit</h4>
+                <i class="fa-solid fa-pen"></i>
+                <form class="drop3">
+                    <select>
+                      <option value="volvo">Select Emotions</option>
+                      <option value="saab">Process 1</option>
+                      <option value="opel">Process 2</option>
+                      <option value="audi">Process 3</option>
+                    </select>
+                </form>
+                <div class="btn">
+                    <input type="submit" value="+ New Thread">
+                    <i class="fa-solid fa-floppy-disk"></i>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="task3">
+            <h3>Task Heading 3</h3>
+            <textarea rows="13" cols="52" placeholder="Reflect as per given guidelines"></textarea>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="task4">
+            <h3>Task Heading 3</h3>
+            <iframe src="https://www.wikipedia.org/" ></iframe>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="task5">
+            <h3 class="h3">Task Heading 5</h3>
+            <div class="intro"><h4><i class="fa-solid fa-angle-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Introduction</h4>
+            </div>
+            <form class="sub1">
+                <textarea rows="5" cols="30" placeholder="Enter Introduction"></textarea>
+            </form>
+            <div class="thh">
+                <h3><i class="fa-solid fa-angle-up"></i>&nbsp;&nbsp;&nbsp; Thread A</h3>
+            </div>
+            <form class="sub3">
+                <p>Example 1</p>
+                <textarea rows="5" cols="20"  placeholder="&nbsp;&nbsp;Enter Text Here"></textarea>
+                <br><br>
+                <input type="button" value="+ Example">
+            </form>
+            <form class="sub3 sub4">
+                <p>Argument for Thread A</p>
+                <textarea rows="5" cols="20"  placeholder="&nbsp;&nbsp;Enter Text Here"></textarea>
+                <br><br>
+                <span>
+                <input type="button" value="+ New Thread"></span>
+            </form>
+            <div class="intro conc"><h4><i class="fa-solid fa-angle-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conclusion</h4>
+            </div>
+            <form class="sub1 conc1">
+                <textarea rows="5" cols="30" placeholder="Enter Introduction"></textarea>
+            </form>
+        </div>
+        <div class="task6">
+            <h3>task heading 6</h3>
+            <audio controls>
+                <source src="assets/y2mate.com - Captain Jack Sparrow theme music.mp3" type="audio/mpeg">
+              </audio>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="task7">
+            <h3>task heading 6</h3>
+            <iframe width="495" height="280"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </div>
+    <div class="end">
+    <input type="submit" value="Next"></div>
+</body>
+</html>
